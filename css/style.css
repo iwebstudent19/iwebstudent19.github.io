@@ -82,7 +82,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background: darkred;
+    background: red;
     min-height: 50vh;
     color: white;
 }
