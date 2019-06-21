@@ -6,23 +6,24 @@
 body {
     font-family: cursive;
     margin: 0;
+   color: black
 }
 
 a {
     text-decoration: none;
-    color: red;
+    color:red
 }
 
 
 /* HEADER */
 header {
-    background-image: linear-gradient(black, white);
-    color: white;
+    background: black;
+    color:white;
     padding: 1em 2em;
 }
 
 header a {
-    color: white;
+    color:red;
 }
 
 header {
@@ -56,7 +57,7 @@ nav a {
 
 /* FOOTER */
 footer {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid rgb(255, 255, 255);
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -81,7 +82,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background-image: linear-gradient(red, orange);
+    background-image: linear-gradient(black, white);
     min-height: 50vh;
     color: white;
 }
@@ -96,6 +97,15 @@ section {
 .hero p {
     max-width: 600px;
     margin: 1em auto;
+}
+
+
+.page-home .hero {
+
+background-image: url('https://picsum.photos/id/1084/800/465?grayscale');
+background-position: center center;
+background-size: cover;
+
 }
 
 /* Lists */
@@ -115,6 +125,26 @@ grid-column-gap: 1em;
 
 /* SUB PAGES */
 .page-sub .hero {
-    background-image: linear-gradient(blue, lightblue);
+    background-image: linear-gradient(black, white);
     min-height: 30vh;
+}
+
+/* BLOG Archives*/
+
+.blog-archives {
+
+max-width: 600px;
+margin: 0 auto;
+
+}
+
+.blog-entry {
+    border: 1px solid #ddd;
+    padding: 2em;
+    margin: 2em 0;
+}
+
+.date {
+    opacity: .5;
+    font-size: .8em;
 }
