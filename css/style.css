@@ -113,20 +113,16 @@ background-size: cover;
 
 /* Lists */
 .lists {
-    background-image: linear-gradient(white, lightgreen);
- }
-
- .lists .container {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-column-gap: 1em;
-
+    /* background-image: linear-gradient(white, lightgreen); */
  }
 
     @media (max-width: 767px) {
-    .lists .container{
+    .lists {
     grid-template-columns: 1fr 1fr;
   }
 }
