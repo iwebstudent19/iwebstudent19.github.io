@@ -125,8 +125,11 @@ grid-column-gap: 1em;
 
 /* SUB PAGES */
 .page-sub .hero {
-    background-image: linear-gradient(green, white);
+    background-image: url('https://picsum.photos/id/448/1000/1000');
+    background-position: center center;
+    background-size: cover;
     min-height: 30vh;
+
 }
 
 /* BLOG Archives*/
