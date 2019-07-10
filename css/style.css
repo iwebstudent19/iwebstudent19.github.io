@@ -74,6 +74,11 @@ main {
     min-height: 80vh;
 }
 
+iframe {
+    width: 80%;
+    margin-top: 10vh;
+}
+
 /* SECTIONS */
 
 section {
