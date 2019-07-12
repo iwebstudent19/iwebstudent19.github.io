@@ -89,7 +89,7 @@ section {
     display: grid;
     align-content: center;
     text-align: center;
-    background-image: linear-gradient(green, white);
+    background: linear-gradient(green, white);
     min-height: 50vh;
     color:white;
 }
@@ -159,4 +159,10 @@ margin: 0 auto;
 .date {
     opacity: .5;
     font-size: .8em;
+}
+/* UI DESIGNS */
+.ui-designs{
+
+text-align: center
+
 }
